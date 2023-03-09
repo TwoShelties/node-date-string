@@ -1,0 +1,22 @@
+{
+  "name": "zaks-date-to-string",
+  "version": "1.0.1",
+  "description": "Converts JavaScript Date class to various strings",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TwoShelties/node-date-string.git"
+  },
+  "keywords": [
+    "date"
+  ],
+  "author": "Zachary Kane",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TwoShelties/node-date-string/issues"
+  },
+  "homepage": "https://github.com/TwoShelties/node-date-string#readme"
+}
