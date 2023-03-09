@@ -14,6 +14,9 @@ function dateString(timestamp, method) {
         "Please include one of the following as the second parameter: dateString, timeString, localeString, GMT, ISO",
     };
 
+  if (!(timestamp instanceof Date))
+    return { success: false, error: "Date input is not a valid date" };
+
   if (method === "dateString") return timestamp.toString();
   else if (method === "timeString") return timestamp.toTimeString();
   else if (method === "localeString") return timestamp.toLocaleString();
